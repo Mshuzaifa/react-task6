@@ -46,8 +46,8 @@ function App() {
     <div className="App">
       <header className={`user ${isMenuOpen ? 'toggle' : ''}`}>
         <div className="user">
-          <img src={abhiImage} alt="Abhiram Reddy" /> {/* Replace with image URL */}
-          <h3 className="name">Abhiram Reddy</h3>
+          <img src={abhiImage} alt="Mohammed huzaifa" /> {/* Replace with image URL */}
+          <h3 className="name">Mohammed Huzaifa</h3>
         </div>
         <nav className="navbar">
           <ul>
@@ -63,7 +63,7 @@ function App() {
 
       <section className="home" id="home">
         <h3>HI FRIENDS !</h3>
-        <h1>I'M <span>Abhiram Reddy</span></h1>
+        <h1>I'M <span>Mohammed Huzaifa</span></h1>
       </section>
 
       {/* Rest of your code... */}

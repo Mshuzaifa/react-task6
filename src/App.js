@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'; 
 import './App.css';
-import abhiImage from "./abhi.jpeg"; 
+import abhiImage from "./huzaifa.jpg"; 
 
 function App() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -46,7 +46,7 @@ function App() {
       <header>
         <div className="user">
           <img src={abhiImage} alt="Abhiram Reddy" />
-          <h3 className="name">Abhiram Reddy</h3>
+          <h3 className="name">Mohammed Huzaifa</h3>
         </div>
         <nav className="navbar">
           <ul className="nav">
@@ -62,16 +62,16 @@ function App() {
 
       <section className="home" id="home">
         <h3>HELLO!!</h3>
-        <h1>This is <span>Abhiram Reddy</span></h1>
+        <h1>This is <span>Mohammed Huzaifa</span></h1>
       </section>
 
       <section className="about" id="about">
         <h1 className="heading"> <span>about</span> me </h1>
         <div className="row">
           <div className="info">
-            <h3> <span> Name : </span> Abhiram Reddy </h3>
+            <h3> <span> Name : </span>Mohammed Huzaifa </h3>
             <h3> <span> Qualification : </span> B.Tech(pursuing) </h3>
-            <h3> <span> Address</span> Konaseema</h3>
+            <h3> <span> Address</span> Adoni,AP</h3>
             <h3> <span> Strengths : </span> Honesty, Patience, Dedication </h3>
             <h3> <span> Hobbies: </span> Reading Books, Travelling </h3>
             <h3> <span> Language : </span> Telugu, Hindi, English </h3>
@@ -86,14 +86,14 @@ function App() {
             <i className="fas fa-graduation-cap"></i>
             <span>2018-2019</span>
             <h3>SSC</h3>
-            <p style={{ fontSize: '20px' }}>Dr.KKR Gowtham School</p>
+            <p style={{ fontSize: '20px' }}>Bhashyam public School</p>
           </div>
           <div className="box">
             <i className="fas fa-graduation-cap"></i>
             <span>2019-2021</span>
             <h3>Intermediate</h3>
             <h3>MPC</h3>
-            <p style={{ fontSize: '20px' }}>Tirumala Junior College</p>
+            <p style={{ fontSize: '20px' }}>Narayana Junior College</p>
           </div>
           <div className="box">
             <i className="fas fa-graduation-cap"></i>
@@ -111,9 +111,9 @@ function App() {
           <div className="content">
             <h3 className="title">contact info</h3>
             <div className="info">
-              <h3> <i className="fas fa-envelope"></i> abhiram9229@gmail.com</h3>
-              <h3> <i className="fas fa-phone"></i> 8639815151 </h3>
-              <h3> <i className="fas fa-map-marker-alt"></i> Konaseema </h3>
+              <h3> <i className="fas fa-envelope"></i> mohammadhuzaifa679@gmail.com</h3>
+              <h3> <i className="fas fa-phone"></i> 9059998233</h3>
+              <h3> <i className="fas fa-map-marker-alt"></i>Adoni </h3>
             </div>
           </div>
         </div>
